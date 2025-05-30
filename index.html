@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <title>Vieira Barbearia</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div>
+            <img src="./assets/icons/logo.jpg" alt="logomarca Vieira Barbearia">
+        </div>
+        <div class="vieira">
+            <a href="">
+                VieiraBarbearia
+            </a>
+        </div>
+        <div class="lista">
+            <ul>
+                <a href="">
+                    <li>SERVIÇOS</li>
+                </a>
+                <a href="">
+                    <li>PRODUTOS</li>
+                </a>
+                <a href="./contato.html">
+                    <li>CONTATO</li>
+                </a>
+            </ul>
+        </div>
+        <div class="instagram">
+            <a href="">
+                <img src="./assets/icons/instagram.png" alt="ícone instagram Vieira Barbearia">
+            </a>
+
+        </div>
+    </header>
+
+    <section class="apresentacao">
+        <div>
+            <h1>Conheça o Incrível</h1>
+        </div>
+        <div>
+            <p>Somos engajados em oferecer o melhor serviço de cuidados com o cabelo e a barba do<br>
+                homem moderno, favorecendo sua autoestima com sofisticação e elegância !</p>
+        </div>
+        <div>
+            <button>Agende Seu Horário!</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="titulo_carrosel">
+            <h1>VIEIRA BARBEARIA</h1>
+        </div>
+        <div class="carrosel">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/carrosel/carrossel-01.JPG" alt="Imagem 1"></div>
+                    <div class="swiper-slide"><img src="./assets/carrosel/carrossel-02.JPG" alt="Imagem 2"></div>
+                    <div class="swiper-slide"><img src="./assets/carrosel/carrossel-03.JPG" alt="Imagem 3"></div>
+                </div>
+                <!-- Botões de navegação -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="card">
+            <img src="./assets/img/servicos.JPG" alt="serviços">
+            <div class="conteudo_card_1">
+                <h2>Serviços</h2>
+                <p>Cuidamos da sua beleza
+                    deixando seu cabelo e barba no estilo</p>
+                <button>Saiba Mais</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/img/produtos.jpg" alt="produtos">
+            <div class="conteudo_card_2">
+                <h2>Produtos</h2>
+                <p>Trabalhamos com uma linha de produtos<br>
+                    diferenciada e você pode adquirir</p>
+                <button>Saiba Mais</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./assets/img/contato.jpg" alt="contato">
+            <div class="conteudo_card_3">
+                <h2>Contato</h2>
+                <p>Entre em contato para agendar o seu
+                    horário e saber mais sobre nós
+                </p>
+                <button>Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="mapa">
+        <h2>Nosso Estabelecimento</h2>
+        <h3>Nosso Estabelecimento está localizado nos Bancários</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.787896571481!2d-34.84862352518837!3d-7.150506392853837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc32413dd433b%3A0x561e9dd82d228934!2sVieira%20Barbearia%20-%20Banc%C3%A1rios!5e0!3m2!1spt-BR!2sbr!4v1748353264908!5m2!1spt-BR!2sbr"
+            width="1000" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+        });
+    </script>
+
+    <footer class="rodape">
+        <p>© Copyright Vieira Barbearia - 2022</p>
+    </footer>
+
+
+</body>
+
+</html>
